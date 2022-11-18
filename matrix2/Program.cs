@@ -11,8 +11,8 @@ namespace matrix2
             var r = new ReadAndPrintMatrix();
 
             // pliki z matrycami do zmiennej typu string
-            string s1 = r.ReadMatrix(@"C:\Users\budaa\Dokumenty\VS\matrix.txt");
-            string s2 = r.ReadMatrix(@"C:\Users\budaa\Dokumenty\VS\matrix2.txt");
+            string s1 = r.ReadMatrix("matrix.txt");
+            string s2 = r.ReadMatrix("matrix2.txt");
 
             Matrix matrix1 = r.StringMatrixToObject(s1);
             Matrix matrix2 = r.StringMatrixToObject(s2);

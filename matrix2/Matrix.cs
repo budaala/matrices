@@ -5,14 +5,14 @@ namespace matrix2
     class Matrix
     {
         int _dim0, _dim1;
-        int[,] data = new int[5, 5];
+        int[,] data = new int[10, 10];
 
         public Matrix(int dim0, int dim1)
         {
             _dim0 = dim0;
             _dim1 = dim1;
         }
-        // deklaracja indeksera
+        // deklaracja indeksatora
         public int this[int x, int y]
         {
             get { return data[x, y]; }
@@ -84,7 +84,7 @@ namespace matrix2
                 m = m + "\n";
             }
             return m;
-        */
         }
+        */
     }
 }

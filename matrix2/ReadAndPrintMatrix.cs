@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.IO;
 
 namespace matrix2
 {
@@ -6,7 +6,7 @@ namespace matrix2
     {
         public string ReadMatrix(string pathToFile)
         {
-            return System.IO.File.ReadAllText(pathToFile);
+            return File.ReadAllText(pathToFile);
         }
         public Matrix StringMatrixToObject(string matrix)
         {
