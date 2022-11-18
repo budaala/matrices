@@ -71,5 +71,20 @@ namespace matrix2
             }
             Console.WriteLine();
         }
+        /*
+        public override string ToString(Matrix mMatrix)
+        {
+            string m = "";
+            for (int i = 0; i < _dim0; i++)
+            {
+                for (int j = 0; j < _dim1; j++)
+                {
+                    m = m + mMatrix[i, j] + " ";
+                }
+                m = m + "\n";
+            }
+            return m;
+        */
+        }
     }
 }
